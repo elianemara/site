@@ -5,14 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eliane</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
+    <header id="menu" class="header">
         <h1>Eliane</h1>
         <nav>
             <!--Seção de navegação no site-->
-            <ul>
+            <ul class="header">
                 <li><a href="#sobre">Sobre mim</a> </li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>
@@ -22,18 +23,41 @@
             </ul>
         </nav>
     </header>
-    <section id="sobre">
-        <h2>Sobre mim</h2>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRHcIfsRGxuVR_ou0hVv6IY8xmevU6rJIQwA&s"
+    <section id="sobre" class="block">
+    <div>
+        <h2 >Sobre mim</h2>
+        <img class="imagem-flutuante" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRHcIfsRGxuVR_ou0hVv6IY8xmevU6rJIQwA&s"
             alt="Imagem de perfil" title="Imagem de perfil">
-        <article>
+            
+        <article >
             <p>Olá! Eu sou a Eliane! <br>
                 Esta é a minha primeira publicação no GitHub.</p>
+            <p class ="quebra-texto"></p>
         </article>
+    </div>
     </section>
-    <section id="Habilidades">
+    <section id="Habilidades" class="block">
+        <h3>Habilidades e Tecnologias</h3>
+        <div class="container">
+            <p><b>Tecnologia</b></p>
+            <p><b>Nível</b></p>
+            <p><b>Descrição</b></p>
+            <p>HTML</p>
+            <p>Iniciante</p>
+            <p>Capaz de construir estruturas de páginas WEB.</p>
+            <p>CSS</p>
+            <p>Iniciante</p>
+            <p>Experiência com flexbox, grid e animações.</p>
+            <p>JavaScript</p>
+            <p>Iniciante</p>
+            <p>Desenvolvimento de script do lado do cliente.</p>
+        </div>
+
+    </section>
+    <section id="Habilidades" class="block">
         <aside>
             <h3>Habilidades e Tecnologias</h3>
+            
             <table>
                 <thead>
                     <tr>
@@ -59,7 +83,7 @@
                         <td>Iniciante</td>
                         <td>Desenvolvimento de scripts do lado do cliente.</td>
                     </tr>
-
+                
                 </tbody>
 
 
@@ -72,15 +96,15 @@
             </ul>
         </aside>
     </section>
-    <section id="projetos">
+    <section id="projetos" class="block">
         <h2>Projetos</h2>
         <article>
             <h3>Portfólio</h3>
             <p>Esta foi a primeira página que densenvolvi.</p>
         </article>
     </section>
-    <footer>Direitos reservados a Eliane.</footer>
-    <section id="contato">
+    <footer class="block">Direitos reservados a Eliane.</footer>
+    <div class="fixed">  
         <h2>Contato</h2>
         <p>Para novos projetos entre em contato:</p>
         <address>
@@ -111,7 +135,7 @@
             <input type="submit" value="enviar mensagem">
         </form>
 
-    </section>
+    </div>
 </body>
 
 </html>

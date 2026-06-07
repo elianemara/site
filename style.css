@@ -1,0 +1,61 @@
+*{font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding: 20px;
+}
+
+.header {
+    background-color: blanchedalmond;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 20px;
+}
+.inline-block {
+    display: inline-block;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.block {
+    display: block;
+    background-color:azure;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.inline {
+    display: inline-block;
+    background-color: azure;
+
+}
+
+.imagem-flutuante {
+    float: left;
+    margin-right: 20px;
+}
+
+.quebra-texto {
+    clear:both;
+}
+
+.fixed {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    background-color: aliceblue;
+    margin-right: 20px;
+    margin-left: 5px;
+    padding: 20px;
+}
+
+.container {
+    display: grid; /*muito utilizado em lojas virtuais*/
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto 1fr;
+    grid-gap: 0px; /*espaçamento entre os itens*/
+    border: 1px solid #CCC;
+    padding: 5px;
+}
