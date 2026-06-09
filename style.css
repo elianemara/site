@@ -10,6 +10,7 @@ body {
     position: -webkit-sticky;
     top: 0;
     padding: 20px;
+    
 }
 .inline-block {
     display: inline-block;
@@ -33,6 +34,16 @@ body {
 .imagem-flutuante {
     float: left;
     margin-right: 20px;
+    
+}
+
+.tabela {
+    border:3px solid rgb(117, 54, 218);
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
 }
 
 .quebra-texto {
@@ -58,4 +69,6 @@ body {
     grid-gap: 0px; /*espaçamento entre os itens*/
     border: 1px solid #CCC;
     padding: 5px;
+    column-gap: 10px;
+    row-gap: 10px;
 }
